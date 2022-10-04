@@ -14,6 +14,10 @@ import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.com
 import { ShoppingListComponent } from './shopping-list/shopping-list.component'
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component'
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component'
+import { EvenComponent } from './task-four/even/even.component'
+import { OddComponent } from './task-four/odd/odd.component'
+import { GameControlComponent } from './task-four/game-control/game-control.component'
+import { TaskFourComponent } from './task-four/task-four.component'
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -23,6 +27,10 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
     WarningAlertComponent,
     TwoWayDatabindingComponent,
     TaskThreeComponent,
+    EvenComponent,
+    OddComponent,
+    GameControlComponent,
+    TaskFourComponent,
     HeaderComponent,
     RecipesComponent,
     RecipeListComponent,

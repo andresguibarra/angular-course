@@ -18,6 +18,10 @@ import { EvenComponent } from './task-four/even/even.component'
 import { OddComponent } from './task-four/odd/odd.component'
 import { GameControlComponent } from './task-four/game-control/game-control.component'
 import { TaskFourComponent } from './task-four/task-four.component'
+import { DropdownDirective } from './shared/dropdown.directive'
+import { TaskFiveComponent } from './task-five/task-five.component'
+import { ActiveUsersComponent } from './task-five/active-users/active-users.component'
+import { InactiveUsersComponent } from './task-five/inactive-users/inactive-users.component'
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -30,14 +34,18 @@ import { TaskFourComponent } from './task-four/task-four.component'
     EvenComponent,
     OddComponent,
     GameControlComponent,
+    ActiveUsersComponent,
+    InactiveUsersComponent,
     TaskFourComponent,
+    TaskFiveComponent,
     HeaderComponent,
     RecipesComponent,
     RecipeListComponent,
     RecipeItemComponent,
     RecipeDetailComponent,
     ShoppingListComponent,
-    ShoppingEditComponent
+    ShoppingEditComponent,
+    DropdownDirective
   ],
   bootstrap: [AppComponent]
 })

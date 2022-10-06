@@ -22,6 +22,7 @@ import { DropdownDirective } from './shared/dropdown.directive'
 import { TaskFiveComponent } from './task-five/task-five.component'
 import { ActiveUsersComponent } from './task-five/active-users/active-users.component'
 import { InactiveUsersComponent } from './task-five/inactive-users/inactive-users.component'
+import { ShoppingListService } from './shopping-list/shopping-list.service'
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -47,6 +48,7 @@ import { InactiveUsersComponent } from './task-five/inactive-users/inactive-user
     ShoppingEditComponent,
     DropdownDirective
   ],
+  providers: [ShoppingListService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

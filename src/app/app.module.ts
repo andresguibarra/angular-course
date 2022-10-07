@@ -23,9 +23,10 @@ import { TaskFiveComponent } from './task-five/task-five.component'
 import { ActiveUsersComponent } from './task-five/active-users/active-users.component'
 import { InactiveUsersComponent } from './task-five/inactive-users/inactive-users.component'
 import { ShoppingListService } from './shopping-list/shopping-list.service'
+import { AppRoutingModule } from './app-routing.module'
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule],
   declarations: [
     AppComponent,
     SuccessAlertComponent,

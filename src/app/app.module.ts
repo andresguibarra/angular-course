@@ -23,7 +23,8 @@ import { TaskFiveComponent } from './task-five/task-five.component'
 import { ActiveUsersComponent } from './task-five/active-users/active-users.component'
 import { InactiveUsersComponent } from './task-five/inactive-users/inactive-users.component'
 import { ShoppingListService } from './shopping-list/shopping-list.service'
-import { AppRoutingModule } from './app-routing.module'
+import { AppRoutingModule } from './app-routing.module';
+import { RecipesStartComponent } from './recipes/recipes-start/recipes-start.component'
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule],
@@ -47,7 +48,8 @@ import { AppRoutingModule } from './app-routing.module'
     RecipeDetailComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    DropdownDirective
+    DropdownDirective,
+    RecipesStartComponent
   ],
   providers: [ShoppingListService],
   bootstrap: [AppComponent]

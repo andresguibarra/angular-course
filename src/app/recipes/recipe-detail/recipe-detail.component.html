@@ -16,7 +16,7 @@
       </button>
       <ul class="dropdown-menu" [class.show]="isManageRecipeDropdownOpen">
         <li class="dropdown-item"><a (click)="onAddToShoppingList()" style="cursor: pointer;">To Shopping List</a></li>
-        <li class="dropdown-item" style="cursor: pointer;"><a>Edit Recipe</a></li>
+        <li class="dropdown-item" style="cursor: pointer;" (click)="onEditRecipe()"><a>Edit Recipe</a></li>
         <li class="dropdown-item" style="cursor: pointer;"><a>Delete Recipe</a></li>
       </ul>
     </div>

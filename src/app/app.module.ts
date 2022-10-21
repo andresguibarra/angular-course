@@ -28,6 +28,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { RecipesStartComponent } from './recipes/recipes-start/recipes-start.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component'
 import { RecipeService } from './recipes/recipe.service'
+import { TaskSixComponent } from './task-six/task-six.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule,ReactiveFormsModule, HttpClientModule, AppRoutingModule],
@@ -44,6 +45,7 @@ import { RecipeService } from './recipes/recipe.service'
     InactiveUsersComponent,
     TaskFourComponent,
     TaskFiveComponent,
+    TaskSixComponent,
     HeaderComponent,
     RecipesComponent,
     RecipeListComponent,

@@ -1,0 +1,6 @@
+<div>Timer: {{debouncedTime}}</div>
+<div> Search with button: {{toggled}}</div>
+<input class="form-control" #input />
+<button #btn>Search</button>
+<button #btn2 (click)="toggle()">Toggle</button>
+<div *ngFor="let item of items">{{item}} </div>
